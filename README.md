@@ -1,6 +1,6 @@
 ## Express SendGrid Inbound Parse
 
-A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / attachments.
+A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / attachments (SSL Version).
 
 ### Prerequisites
 
