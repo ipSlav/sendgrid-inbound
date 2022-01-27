@@ -4,11 +4,10 @@ A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / 
 
 ### Prerequisites
 
-[SendGrid Guide](https://sendgrid.com/docs/for-developers/parsing-email/setting-up-the-inbound-parse-webhook/)
-
 - Create a valid SSL certificate using certbot
 - Modify `<placeholders>` into index.js according you your needs
 
+[SendGrid Guide](https://sendgrid.com/docs/for-developers/parsing-email/setting-up-the-inbound-parse-webhook/)
 - Log into your SendGrid account
 - Go to Settings > Inbound Parse
 - Click `Add Host & URL`
