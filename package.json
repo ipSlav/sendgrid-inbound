@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Petar Jr. Pranic",
+  "author": "Petar Jr. Pranic (forked from Sander Hammelburg)",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.2",
