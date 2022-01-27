@@ -29,7 +29,6 @@ app.post('/<your_>/<_endpoint>', upload.any(), async (req, res) => {
     console.log("['content-ids']=> ", body['content-ids'], "\n");
     
     if (req.files.length > 0) {
-        // Log file data
         console.log(req.files)
     } else {
         console.log('No files...')
