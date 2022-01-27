@@ -1,10 +1,10 @@
 {
-  "name": "express-sendgrid-inbound-parse",
+  "name": "sendgrid-inbound",
   "version": "1.0.0",
   "description": "A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / attachments",
-  "homepage": "https://github.com/shammelburg/express-sendgrid-inbound-parse",
+  "homepage": "https://github.com/ipSlav/sendgrid-inbound",
   "repository": {
-    "url": "https://github.com/shammelburg/express-sendgrid-inbound-parse"
+    "url": "https://github.com/ipSlav/sendgrid-inbound"
   },
   "main": "index.js",
   "scripts": {
@@ -12,13 +12,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Sander Hammelburg",
+  "author": "Petar Jr. Pranic",
   "license": "MIT",
   "dependencies": {
-    "express": "4.17.1",
-    "multer": "1.4.2"
+    "express": "^4.17.2",
+    "multer": "^1.4.4"
   },
   "devDependencies": {
-    "nodemon": "2.0.6"
+    "nodemon": "^2.0.15"
   }
 }
