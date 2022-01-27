@@ -2,11 +2,13 @@
 
 A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / attachments (SSL Version).
 
-### Prerequisites
+### Config
 
+#### App
 - Create a valid SSL certificate using certbot
 - Modify `<placeholders>` into index.js according you your needs
 
+#### Sendgrid
 [SendGrid Guide](https://sendgrid.com/docs/for-developers/parsing-email/setting-up-the-inbound-parse-webhook/)
 - Log into your SendGrid account
 - Go to Settings > Inbound Parse
@@ -17,6 +19,7 @@ A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / 
   - Check `Check incoming emails for spam` (This will return a `spam_score` and `spam_report`)
   - Leave `POST the raw, full MIME message` unchecked
 
+#### Domain Registrar
 - Log into you domain registrar
 - Add an MX record
   - Host `parse`
@@ -29,6 +32,7 @@ A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / 
 2. `npm start`
 
 You can now test the Inbound Parse by sending an email to `[anything]@[domain]`.
+
 #### Parsed data properties
 
 ```js
