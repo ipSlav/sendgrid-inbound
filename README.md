@@ -15,7 +15,7 @@ A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / 
 - Click `Add Host & URL`
 
   - Select a verified domain
-  - Add a `Destination URL` (This has to be publicly available. Use a valid fqdn instead of an IP)
+  - Add a `Destination URL` (This has to be publicly available. Use a valid FQDN instead of an IP)
   - Check `Check incoming emails for spam` (This will return a `spam_score` and `spam_report`)
   - Leave `POST the raw, full MIME message` unchecked
 
